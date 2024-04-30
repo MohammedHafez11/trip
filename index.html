@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- BoxIcon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Page Title -->
+    <title> رحلة </title>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <div class="phone-nav">
+      <div class="close-ico">
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <div class="container">
+        <div class="nav-items">
+          <ul>
+            <!-- Navigation Links -->
+            <li><a href="index.html" class="active">اكتشف</a></li>
+            <li><a href="#">الأنشطة</a></li>
+            <li><a href="#"> المدونه</a></li>
+            <li><a href="#"> عن رحلة</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-options">
+          <button class="login btn">
+            <a href="#">
+              <i class="bx bxs-user-circle"></i>تسجيل الدخول
+            </a>
+          </button>
+        </div>
+
+        <div class="logo">
+          <div class="stores-icons">
+            <div class="heading">
+              <h3>حَمِّل تطبيق رحلة</h3>
+            </div>
+            <div class="store">
+              <i class="fa-brands fa-apple"></i>
+              <div class="store-info">
+                <p>Available on the</p>
+                <h4>App Store</h4>
+              </div>
+            </div>
+            <div class="store">
+              <i class="fa-brands fa-google-play"></i>
+              <div class="store-info">
+                <p>GET IT ON</p>
+                <h4>Google play</h4>
+              </div>
+            </div>
+          </div>
+          <img src="logo.png" alt="رحلتك لحجز السفر" />
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <nav>
+        <!-- Navigation Items and Options Section -->
+        <div class="nav-bar">
+          <!-- Navigation Items -->
+          <div class="nav-items">
+            <ul>
+              <!-- Navigation Links -->
+              <li><a href="#"> عن رحلة</a></li>
+              <li><a href="#"> المدونه</a></li>
+              <li><a href="#">الأنشطة</a></li>
+              <li><a href="#" class="active">اكتشف</a></li>
+            </ul>
+          </div>
+          <!-- Logo Section -->
+          <div class="logo">
+            <img src="logo.png" alt="رحلتك لحجز السفر" />
+          </div>
+          <!-- Navigation Options -->
+          <div class="nav-options">
+            <!-- Phone Number with Icon -->
+            <div class="phone-number">
+              <span>+02 36911967 <i class="bx bxs-phone-call"></i></span>
+            </div>
+            <!-- Currency and Login Buttons with Icons -->
+            <button class="language-btn btn">
+              <i class="bx bx-world"></i>
+            </button>
+            <button class="login btn">
+              <a href="#">
+                <i class="bx bxs-user-circle"></i>تسجيل الدخول
+              </a>
+            </button>
+            <div class="collapsed-nav">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="land">
+      <div class="container">
+        <div class="content">
+          <div class="heading">
+            <p class="keywords">.تـجول.<span> اسـتكشف.</span> اكـتشف</p>
+            <h2 class="title">استكشف <span>آفاقك</span> بكل الطرق</h2>
+            <p class="paragraph">
+              استكشف الوجهات الأكثر إثارة في العالم واخلق ذكريات تدوم مدى الحياة
+            </p>
+          </div>
+          <div class="booking-box">
+            <div class="booking-control">
+              <div class="booking-options">
+                <ul>
+                  <li id="plane">
+                    طيران <i class="fa-solid fa-plane-departure"></i>
+                  </li>
+                  <li id="hotel">فنادق <i class="fa-solid fa-hotel"></i></li>
+                  <li id="trip">رحلات <i class="fa-solid fa-tree"></i></li>
+                </ul>
+              </div>
+              <div class="booking-info plane">
+                <div class="trip-options">
+                  <div class="trip-option">
+                    <input
+                      name="radio-group"
+                      id="radio2"
+                      class="trip-option__input"
+                      type="radio"
+                    />
+                    <label for="radio2" class="trip-option__label">
+                      <span class="trip-option__custom"></span>
+
+                      ذهاب وعوده
+                    </label>
+                  </div>
+                  <div class="trip-option">
+                    <input
+                      name="radio-group"
+                      id="radio1"
+                      class="trip-option__input"
+                      type="radio"
+                      checked
+                    />
+                    <label for="radio1" class="trip-option__label">
+                      <span class="trip-option__custom"></span>
+
+                      ذهاب فقط
+                    </label>
+                  </div>
+                  <div class="trip-option">
+                    <input
+                      name="radio-group"
+                      id="radio3"
+                      class="trip-option__input"
+                      type="radio"
+                    />
+                    <label for="radio3" class="trip-option__label">
+                      <span class="trip-option__custom"></span>
+
+                      وجهات متعدده
+                    </label>
+                  </div>
+                </div>
+                <div class="trip-control option-oneWay">
+                  <div class="row">
+                    <div class="from control from-to">
+                      <div class="input-box">
+                        <label>الوجهة</label>
+                        <div class="input-field">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <input type="text" placeholder="المدينة أو المطار" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="to control from-to">
+                      <div class="input-box">
+                        <label>المغادرة من</label>
+                        <div class="input-field">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <input type="text" placeholder="المدينة أو المطار" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="start-date control">
+                      <label>تاريخ الرحلة</label>
+                      <input type="date" value="2023-01-01" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="traveler-class control">
+                      <div class="label"><p>المسافرين, الدرجه</p></div>
+                      <div class="select">
+                        <div class="counter">
+                          <span class="numberOfTravllers">1</span>
+                          <span class="name">مسافر</span>
+                        </div>
+                        <span class="icon">
+                          <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                      </div>
+                      <div class="class"><span>السياحية</span></div>
+                      <div class="selectWindow">
+                        <div class="select-container">
+                          <div class="ages">
+                            <div class="fieldSet">
+                              <label
+                                >بالغين
+                                <select>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                  <option value="5">٥</option>
+                                  <option value="6">٦</option>
+                                  <option value="7">٧</option>
+                                  <option value="8">٨</option>
+                                  <option value="9">٩</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢ سنة+)</div>
+                            </div>
+
+                            <div class="fieldSet">
+                              <label
+                                >أطفال
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢-٢ سنة)</div>
+                            </div>
+                            <div class="fieldSet">
+                              <label
+                                >رضيع
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(أقل من سنتين)</div>
+                            </div>
+                          </div>
+                          <div class="selectClass">
+                            <div class="label">
+                              الدرجة
+                              <select>
+                                <option value="السياحية">السياحية</option>
+                                <option value="رجال أعمال">رجال أعمال</option>
+                                <option value="الأولي">الأولي</option>
+                              </select>
+                            </div>
+                          </div>
+                          <button>
+                            موافق
+                            <span
+                              ><i class="fa-regular fa-circle-check"></i
+                            ></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="searchButton">
+                      <i class="bx bx-search"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="trip-control option-roundtrip">
+                  <div class="row">
+                    <div class="from control from-to">
+                      <div class="input-box">
+                        <label>الوجهة</label>
+                        <div class="input-field">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <input type="text" placeholder="المدينة أو المطار" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="to control from-to">
+                      <div class="input-box">
+                        <label>المغادرة من</label>
+                        <div class="input-field">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <input type="text" placeholder="المدينة أو المطار" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="start-date control">
+                      <label>تاريخ الرحلة</label>
+                      <input type="date" value="2023-01-01" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="finish-date control">
+                      <label>تاريخ العودة</label>
+                      <input type="date" value="2023-02-01" />
+                    </div>
+                    <div class="traveler-class control">
+                      <div class="label"><p>المسافرين, الدرجه</p></div>
+                      <div class="select">
+                        <div class="counter">
+                          <span class="numberOfTravllers">1</span>
+                          <span class="name">مسافر</span>
+                        </div>
+                        <span class="icon">
+                          <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                      </div>
+                      <div class="class"><span>السياحية</span></div>
+                      <div class="selectWindow">
+                        <div class="select-container">
+                          <div class="ages">
+                            <div class="fieldSet">
+                              <label
+                                >بالغين
+                                <select>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                  <option value="5">٥</option>
+                                  <option value="6">٦</option>
+                                  <option value="7">٧</option>
+                                  <option value="8">٨</option>
+                                  <option value="9">٩</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢ سنة+)</div>
+                            </div>
+
+                            <div class="fieldSet">
+                              <label
+                                >أطفال
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢-٢ سنة)</div>
+                            </div>
+                            <div class="fieldSet">
+                              <label
+                                >رضيع
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(أقل من سنتين)</div>
+                            </div>
+                          </div>
+                          <div class="selectClass">
+                            <div class="label">
+                              الدرجة
+                              <select>
+                                <option value="السياحية">السياحية</option>
+                                <option value="رجال أعمال">رجال أعمال</option>
+                                <option value="الأولي">الأولي</option>
+                              </select>
+                            </div>
+                          </div>
+                          <button>
+                            موافق
+                            <span
+                              ><i class="fa-regular fa-circle-check"></i
+                            ></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="searchButton">
+                      <i class="bx bx-search"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="trip-control option-multicity">
+                  <div class="data-row">
+                    <div class="row">
+                      <div class="from control from-to">
+                        <div class="input-box">
+                          <label>الوجهة</label>
+                          <div class="input-field">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <input
+                              type="text"
+                              placeholder="المدينة أو المطار"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="to control from-to">
+                        <div class="input-box">
+                          <label>المغادرة من</label>
+                          <div class="input-field">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <input
+                              type="text"
+                              placeholder="المدينة أو المطار"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="start-date control">
+                        <label>تاريخ الرحلة</label>
+                        <input type="date" value="2023-01-01" />
+                      </div>
+                    </div>
+                  </div>
+                  <button class="addRowButton">
+                    اضافة رحلة <i class="fa-solid fa-plus"></i>
+                  </button>
+                  <div class="row">
+                    <div class="traveler-class control">
+                      <div class="label"><p>المسافرين, الدرجه</p></div>
+                      <div class="select">
+                        <div class="counter">
+                          <span class="numberOfTravllers">1</span>
+                          <span class="name">مسافر</span>
+                        </div>
+                        <span class="icon">
+                          <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                      </div>
+                      <div class="class"><span>السياحية</span></div>
+                      <div class="selectWindow">
+                        <div class="select-container">
+                          <div class="ages">
+                            <div class="fieldSet">
+                              <label
+                                >بالغين
+                                <select>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                  <option value="5">٥</option>
+                                  <option value="6">٦</option>
+                                  <option value="7">٧</option>
+                                  <option value="8">٨</option>
+                                  <option value="9">٩</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢ سنة+)</div>
+                            </div>
+
+                            <div class="fieldSet">
+                              <label
+                                >أطفال
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢-٢ سنة)</div>
+                            </div>
+                            <div class="fieldSet">
+                              <label
+                                >رضيع
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(أقل من سنتين)</div>
+                            </div>
+                          </div>
+                          <div class="selectClass">
+                            <div class="label">
+                              الدرجة
+                              <select>
+                                <option value="السياحية">السياحية</option>
+                                <option value="رجال أعمال">رجال أعمال</option>
+                                <option value="الأولي">الأولي</option>
+                              </select>
+                            </div>
+                          </div>
+                          <button>
+                            موافق
+                            <span
+                              ><i class="fa-regular fa-circle-check"></i
+                            ></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="searchButton">
+                      <i class="bx bx-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="booking-info hotel">
+                <div class="trip-control option-hotel">
+                  <div class="row">
+                    <div class="from control from-to">
+                      <div class="input-box">
+                        <label>الوجهة</label>
+                        <div class="input-field">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <input type="text" placeholder="المدينة أو الفندق" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="start-date control">
+                      <label>نزول الفندق</label>
+                      <input type="date" value="2023-01-01" />
+                    </div>
+                    <div class="finish-date control">
+                      <label>مغادرة الفندق</label>
+                      <input type="date" value="2023-02-01" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="traveler-class control">
+                      <div class="label"><p>المسافرين, الدرجه</p></div>
+                      <div class="select">
+                        <div class="counter">
+                          <span class="numberOfTravllers">1</span>
+                          <span class="name">مسافر</span>
+                        </div>
+                        <span class="icon">
+                          <i class="fa-solid fa-caret-down"></i>
+                        </span>
+                      </div>
+                      <div class="class"><span>السياحية</span></div>
+                      <div class="selectWindow">
+                        <div class="select-container">
+                          <div class="ages">
+                            <div class="fieldSet">
+                              <label
+                                >بالغين
+                                <select>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                  <option value="5">٥</option>
+                                  <option value="6">٦</option>
+                                  <option value="7">٧</option>
+                                  <option value="8">٨</option>
+                                  <option value="9">٩</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢ سنة+)</div>
+                            </div>
+
+                            <div class="fieldSet">
+                              <label
+                                >أطفال
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(١٢-٢ سنة)</div>
+                            </div>
+                            <div class="fieldSet">
+                              <label
+                                >رضيع
+                                <select>
+                                  <option value="0">٠</option>
+                                  <option value="1">١</option>
+                                  <option value="2">٢</option>
+                                  <option value="3">٣</option>
+                                  <option value="4">٤</option>
+                                </select></label
+                              >
+                              <div class="ageRange">(أقل من سنتين)</div>
+                            </div>
+                          </div>
+                          <div class="selectClass">
+                            <div class="label">
+                              الدرجة
+                              <select>
+                                <option value="السياحية">السياحية</option>
+                                <option value="رجال أعمال">رجال أعمال</option>
+                                <option value="الأولي">الأولي</option>
+                              </select>
+                            </div>
+                          </div>
+                          <button>
+                            موافق
+                            <span
+                              ><i class="fa-regular fa-circle-check"></i
+                            ></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="searchButton">
+                      <i class="bx bx-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="booking-info trip">
+                <div class="trip-control option-hotel">
+                  <div class="row">
+                    <div class="from control city-search from-to">
+                      <div class="input-box">
+                        <label>اختر المدينة</label>
+                        <div class="input-field">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <input
+                            type="text"
+                            placeholder="ابحث بواسطة اسم المدينة"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="searchButton">
+                      <i class="bx bx-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages-section">
+      <div class="container">
+        <div class="content">
+          <div class="heading animate">
+            <h3>الرحلات <span>الرائجة</span></h3>
+            <p>الرحلات السياحيه الاكثر شعبية المقدمة لك</p>
+          </div>
+          <div class="packages animate">
+            <div class="package">
+              <div class="image">
+                <img
+                  src="https://images.pexels.com/photos/15177904/pexels-photo-15177904/free-photo-of-museum-of-the-future-in-dubai.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                />
+              </div>
+              <div class="package-info">
+                <div class="title-stars">
+                  <div class="package-name">
+                    <h4>متحف المستقبل</h4>
+                    <p>
+                      <span><i class="fa-solid fa-location-dot"></i></span
+                      >الامارات, دبي
+                    </p>
+                  </div>
+                  <div class="stars">
+                    ٤.٥
+                    <span><i class="fa-solid fa-star"></i></span>
+                  </div>
+                </div>
+                <div class="package-description">
+                  <p>
+                    امتلك تذكرة إلى عالم المستقبل في متحف دبي، حيث تتحقق الأحلام
+                    بتقنيات مذهلة ورؤى ثورية، في تجربة تفاعلية تنقلك إلى زمن
+                    قادم
+                  </p>
+                </div>
+                <div class="package-cost">
+                  <div class="cost">$١٨٦.٠٠</div>
+                  <a href="#">
+                    <button class="booking">احجز الان</button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="package">
+              <div class="image">
+                <img
+                  src="https://images.pexels.com/photos/16025597/pexels-photo-16025597/free-photo-of-two-men-walk-in-the-alley.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                />
+              </div>
+              <div class="package-info">
+                <div class="title-stars">
+                  <div class="package-name">
+                    <h4>مدينة التشفشاون</h4>
+                    <p>
+                      <span><i class="fa-solid fa-location-dot"></i></span
+                      >المغرب, تشفشاون
+                    </p>
+                  </div>
+                  <div class="stars">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    ٤.٣
+                  </div>
+                </div>
+                <div class="package-description">
+                  <p>
+                    استمتع بسحر الأزرق الفاتح في رحلة إلى شفشاون، المدينة
+                    الرائعة بالأزقة الملونة والثقافة الأمازيغية الفريدة في شمال
+                    المغرب
+                  </p>
+                </div>
+                <div class="package-cost">
+                  <div class="cost">$١١٧.٠٠</div>
+                  <a href="#">
+                    <button class="booking">احجز الان</button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="package">
+              <div class="image">
+                <img
+                  src="https://images.pexels.com/photos/4546396/pexels-photo-4546396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                />
+              </div>
+              <div class="package-info">
+                <div class="title-stars">
+                  <div class="package-name">
+                    <h4>برج خليفه</h4>
+                    <p>
+                      <span><i class="fa-solid fa-location-dot"></i></span
+                      >الامارات, دبي
+                    </p>
+                  </div>
+                  <div class="stars">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    ٤.٩
+                  </div>
+                </div>
+                <div class="package-description">
+                  <p>
+                    اطلع على عالم السماء من أعلى برج خليفة في دبي، حيث تمتد
+                    المناظر الخلابة وتجتمع الفخامة في أعلى ناطحة سحاب في العالم
+                  </p>
+                </div>
+                <div class="package-cost">
+                  <div class="cost">$٢٤٩.٠٠</div>
+                  <a href="#">
+                    <button class="booking">احجز الان</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="more-button animate">
+            <span class="line left"></span>
+            <button>اكتشف المزيد</button>
+            <span class="line right"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section">
+      <div class="container">
+        <div class="content">
+          <div class="heading animate">
+            <h3>الخبرة <span>و الخدمات</span></h3>
+            <p>الخبرة والخدمة علي أعلي مستوي من الجودة</p>
+          </div>
+          <div class="experience-grid">
+            <div class="image animate">
+              <img
+                src="https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              />
+            </div>
+            <div class="boxes">
+              <div class="row">
+                <div class="experience-box animate box1">
+                  <div class="title">
+                    <h4>+٣٠</h4>
+                    <h5>سنه من الخبره</h5>
+                  </div>
+                  <p>استمتع برحلات سياحية استثنائية مع خبرة لا مثيل لها</p>
+                </div>
+
+                <div class="experience-box animate box2">
+                  <div class="title">
+                    <h4>٤٠+ الـف</h4>
+                    <h5>مسافر مسرور</h5>
+                  </div>
+                  <p>تجربة فريدة مع أكثر من ٤٠,٠٠٠ مسافر سعيد معنا</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="experience-box animate box3">
+                  <div class="title">
+                    <h4>حـجـز</h4>
+                    <h5>سهل</h5>
+                  </div>
+                  <p>حجز سهل وسريع يجعل رحلتك ممتعة وميسرة بكل يسر</p>
+                </div>
+
+                <div class="experience-box animate box4">
+                  <div class="title">
+                    <h4>أفـضـل</h4>
+                    <h5>المرشدين السياحين</h5>
+                  </div>
+                  <p>استمتع بتوجيهات أفضل مرشدينا السياحيين في كل رحلة</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers-section">
+      <div class="container">
+        <div class="content">
+          <div class="heading">
+            توفير ضخم عبر دول الوطن العربي | <span>مع رحلة</span>
+          </div>
+          <div class="deals">
+            <div class="deal">
+              <div class="title">
+                <i class="bx bxs-offer"></i>
+                <h3>عروض <span>الطيور الباكرة</span></h3>
+              </div>
+              <p>استمتع بتوفيرات رائعة مع عروض الطيور الباكرة قبل الجميع</p>
+            </div>
+            <div class="deal">
+              <div class="title">
+                <i class="bx bxs-offer"></i>
+                <h3>عروض <span>اللحظه الاخيرة</span></h3>
+              </div>
+              <p>لحظات حاسمة! احصل على عروض لا تقاوم في آخر لحظة</p>
+            </div>
+            <div class="deal">
+              <div class="title">
+                <i class="bx bxs-offer"></i>
+                <h3>عروض <span>٢ لسعر ١</span></h3>
+              </div>
+              <p>احجز الآن واحصل على تجربة فريدة مع عروض ٢ لسعر ١.</p>
+            </div>
+            <div class="deal">
+              <div class="title">
+                <i class="bx bxs-offer"></i>
+                <h3>عروض <span>الأعضاء الحصرية</span></h3>
+              </div>
+              <p>انضم إلينا واستفد من عروض حصرية مخصصة لأعضاء موقعنا الرائع</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-destinations">
+      <div class="container">
+        <div class="content">
+          <div class="heading animate">
+            <h3>اشهر <span>الوجهات</span></h3>
+            <p>الوجهات السياحية الاكثر شهرة المقدمة لك</p>
+          </div>
+          <div class="destinations">
+            <div class="row first">
+              <div
+                class="destination animate animate1"
+                style="
+                  background-image: url(https://images.pexels.com/photos/14435169/pexels-photo-14435169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+                "
+              >
+                <div class="title">
+                  <h3>اكشف</h3>
+                  <h4>مصر</h4>
+                </div>
+              </div>
+              <div
+                class="destination animate animate1"
+                style="
+                  background-image: url(https://images.pexels.com/photos/3889761/pexels-photo-3889761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+                "
+              >
+                <div class="title">
+                  <h3>تجول</h3>
+                  <h4>المغرب</h4>
+                </div>
+              </div>
+            </div>
+            <div class="row second">
+              <div
+                class="destination animate animate2"
+                style="
+                  background-image: url(https://images.pexels.com/photos/14765462/pexels-photo-14765462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+                "
+              >
+                <div class="title">
+                  <h3>المغامرة</h3>
+                  <h4>تونس</h4>
+                </div>
+              </div>
+              <div
+                class="destination animate animate2"
+                style="
+                  background-image: url(https://images.pexels.com/photos/4560328/pexels-photo-4560328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+                "
+              >
+                <div class="title">
+                  <h3>استكشف</h3>
+                  <h4>الامارات</h4>
+                </div>
+              </div>
+              <div
+                class="destination animate animate2"
+                style="
+                  background-image: url(https://images.pexels.com/photos/4388167/pexels-photo-4388167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+                "
+              >
+                <div class="title">
+                  <h3>اكتشف</h3>
+                  <h4>الأردن</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="content">
+          <div class="heading">
+            <h3>اشترك الان و وفر</h3>
+            <h4>
+              مصدرك للحصول علي أفضل العروض من أفضل منظمي رحلات المغامرات في
+              الوطن العربي
+            </h4>
+            <p>اشترك الان ولا تفوت أي مغامرة أخري</p>
+          </div>
+          <div class="newsletter-form">
+            <h4>اشترك وانضم لأكثر من ٤٠,٠٠٠ عضو</h4>
+            <div class="input-group">
+              <input
+                type="email"
+                class="input"
+                id="Email"
+                name="Email"
+                placeholder="البريد الالكتروني"
+              />
+              <input class="button--submit" value="اشترك الان" type="submit" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsors">
+      <div class="container">
+        <div class="content">
+          <div class="sponsor-company animate company1">
+            <img src="img/brand/egyptair-logo.svg" />
+          </div>
+          <div class="sponsor-company animate company2">
+            <img src="img/brand/Emirates_logo.svg" />
+          </div>
+          <div class="sponsor-company animate company3">
+            <img src="img/brand/hilton-international.svg" />
+          </div>
+          <div class="sponsor-company animate company4">
+            <img
+              src="img/brand/four-seasons-hotels-limited-vector-logo.svg"
+            />
+          </div>
+          <div class="sponsor-company animate company5">
+            <img src="img/brand/saudi-airlines-logo.svg" />
+          </div>
+          <div class="sponsor-company animate company6">
+            <img src="img/brand/Qatar_Airways_logo.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-section">
+        <div class="brand-section">
+          <div class="logo-img">
+            <img src="logo.png" />
+          </div>
+          <div class="app-section">
+            <div class="heading">
+              <h3>حَمِّل تطبيق رحلة</h3>
+            </div>
+            <div class="stores-icons">
+              <div class="store">
+                <i class="fa-brands fa-apple"></i>
+                <div class="store-info">
+                  <p>Available on the</p>
+                  <h4>App Store</h4>
+                </div>
+              </div>
+              <div class="store">
+                <i class="fa-brands fa-google-play"></i>
+                <div class="store-info">
+                  <p>GET IT ON</p>
+                  <h4>Google play</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="links-section">
+          <div class="links-column">
+            <ul>
+              <li><a href="#">مساعدة</a></li>
+              <li><a href="#">FAQ'S</a></li>
+              <li><a href="#">إعدادات الخصوصية</a></li>
+              <li><a href="#">تسجيل الدخول</a></li>
+            </ul>
+          </div>
+          <div class="links-column">
+            <ul>
+              <li><a href="#">سياسة ملفات تعريف الارتباط</a></li>
+              <li><a href="#">سياسة الخصوصية</a></li>
+              <li><a href="#">بنود الخدمة</a></li>
+              <li><a href="#">تفاصيل الشركه</a></li>
+            </ul>
+          </div>
+          <div class="links-column">
+            <ul>
+              <li class="dropdown">
+                <div class="title">
+                  <span><i class="bx bx-chevron-down"></i></span>استكشف
+                </div>
+                <ul class="collapse">
+                  <li><a href="#">الرحلات والعطلات</a></li>
+                  <li><a href="#">المدن</a></li>
+                  <li><a href="#">احصل علي التطبيق</a></li>
+                  <li><a href="#">خريطة الموقع</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <div class="title">
+                  <span><i class="bx bx-chevron-down"></i></span>الشركة
+                </div>
+                <ul class="collapse expand">
+                  <li><a href="#">معلومات عنا</a></li>
+                  <li><a href="#">لماذا تختار رحلة ؟</a></li>
+                  <li><a href="#">امكانية الوصول</a></li>
+                  <li><a href="#">الوظائف</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <div class="title">
+                  <span><i class="bx bx-chevron-down"></i></span>الشركاء
+                </div>
+                <ul class="collapse">
+                  <li><a href="#">اعمل معنا</a></li>
+                  <li><a href="#">الجهات المتعاونه</a></li>
+                  <li><a href="#">النظام المتقدم لمعلومات المسافرين</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-section">
+        <p>قارن الرحلات الرخيصة واحجزها من خلال رحلة</p>
+        <p>Rihla Ltd 2019 – 2023 ©</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
